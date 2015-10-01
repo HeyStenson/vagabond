@@ -24,7 +24,7 @@ class UsersController < ApplicationController
     @posts = @user.posts
     @city = City.find_by_id(@user.city_id)
     @comments = @user.comments
-   
+  binding.pry
    
   
 
